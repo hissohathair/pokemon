@@ -214,8 +214,8 @@ function TakeTurnState:victory()
                         self.playerPokemon.currentExp = self.playerPokemon.currentExp - self.playerPokemon.expToLevel
 
                         -- new stats: HPIncrease, attackIncrease, defenseIncrease, speedIncrease
-                        local hpi, ai, di, si = self.playerPokemon:levelUp()
                         local hp, a, d, s = self.playerPokemon:getStats()
+                        local hpi, ai, di, si = self.playerPokemon:levelUp()
 
                         local items = {
                             { text = string.format("HP %d + %d = %d", hp, hpi, hp + hpi) },
