@@ -22,6 +22,8 @@ Keys:
 
 ![Title screen](images/titlescreen.png)
 
+![Stats Menu](images/statsmenu.png)
+
 
 # Credits
 
