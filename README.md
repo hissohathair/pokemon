@@ -4,9 +4,9 @@ Assignment 7 from CS50G
 
 Original code [by Colton Ogden](https://cs50.harvard.edu/games/2018/projects/7/pokemon/)
 
-1. Implement a Menu that appears during the player Pokémon’s level up that shows, for each stat, ‘X + Y = Z’ (for starting, increase, and new total)
-2. Menu should appear right after the “Level Up” dialogue that appears at the end of a victory
-3. Menu should not have a cursor.
+1. ~~Implement a Menu that appears during the player Pokémon’s level up that shows, for each stat, ‘X + Y = Z’ (for starting, increase, and new total)~~
+2. ~~Menu should appear right after the “Level Up” dialogue that appears at the end of a victory~~
+3. ~~Menu should not have a cursor.~~
 
 
 # Playing

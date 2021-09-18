@@ -95,9 +95,13 @@ function Pokemon:statsLevelUp()
     return HPIncrease, attackIncrease, defenseIncrease, speedIncrease
 end
 
+function Pokemon:getStats()
+    return self.HP, self.attack, self.defense, self.speed
+end
+
 function Pokemon:levelUp()
     self.level = self.level + 1
-    self.expToLevel = self.level * self.level * 5 * 0.75
+    self.expToLevel = self.level * self.level * 10 -- TODO: put back 5 * 0.75
 
     return self:statsLevelUp()
 end

@@ -17,14 +17,14 @@ function BattleMenuState:init(battleState)
         width = 64,
         height = 64,
         items = {
-            {
+            { -- fight
                 text = 'Fight',
                 onSelect = function()
                     gStateStack:pop()
                     gStateStack:push(TakeTurnState(self.battleState))
                 end
             },
-            {
+            { -- run
                 text = 'Run',
                 onSelect = function()
                     gSounds['run']:play()
